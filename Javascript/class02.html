@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // let x;
+        //let response=x?"yes we have value" : "no value";
+        //document.write("<br>");
+        //document.write(response);
+        let val = 4;
+        let check = prompt("Enter the value you want to search ? ");
+        let count = 0;
+        while(count < 5){
+            if(check == val){
+                document.write("yeah! you got it");
+                document.write("<br>");
+                break;
+            }
+            else{
+                document.write("Nope . please try again");
+                check = prompt("Enter the value again");
+                document.write("<br>");
+            }
+            count++;
+        }
+        
+       /*switch(Math.floor(Math.random()*6+1)){
+        case 1:
+            document.write("1");
+            break;
+            case 2:
+            document.write("2");
+            break;
+            case 3:
+            document.write("3");
+            break;
+            case 4:
+            document.write("4");
+            break;
+            case 5:
+            document.write("5");
+            break;
+            default:
+                document.write("no match");}
+                */
+    </script>
+</body>
+</html>
