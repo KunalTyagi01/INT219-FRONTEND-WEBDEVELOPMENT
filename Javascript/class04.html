@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const myObj = {name:"Kunal"};
+        // document.write(myObj.name);
+        // document.write("<br>");
+        // const myObj1 = {
+        //     name:"Kunal",
+        //     present:"true",
+        //     hobbies:["Eat","Sleep","Code"],
+        //     beverage:{morning:"Tea",afternoon:"coffee"},
+        //     grade:function(){
+        //         return "A";   
+        //     }
+        // };
+        // document.write(myObj1.beverage.afternoon);
+        // document.write("<br>");
+        // document.write(myObj1.grade());
+        // document.write("<br>");
+        // document.write(myObj1.hobbies[2]);
+
+        //Another object with inheritance
+//         const vehicle={
+//             wheels:4,
+//             engine:function(){
+//                 return "diesel Engine";
+//             }
+//         };
+//         const truck=object.create(vehicle);
+//         truck.doors=2;
+//         document.write("<br>");
+//         document.write(truck.wheels);
+//         document.write("<br>");
+//         document.write(truck.doors);
+//         document.write("<br>");
+//         document.write(truck.engine());
+//         const car=object.create(vehicle);
+//         car.doors=4;
+//         car.engine=function(){
+//             return "Wooosshhh";
+//         }
+//         document.write("<br>");
+//         document.write(car.engine());
+//         document.write("<br>");
+
+//         const tesla=object.create(car);
+// document.write(tesla.wheels);
+// document.write("<br>");
+// document.write(tesla.engine);
+// document.write("<br>");
+// tesla.engine=function(){
+//     return "Shhhh";
+// }
+// document.write(tesla.engine());
+
+//CLASS
+
+class pizza{
+    constructor(){
+        this.size=" Medium ";
+        this.crust="Wheat crust";
+
+    }
+    bake(){
+        document.write("Baking a " +(this.size)+(this.crust)+" pizza");
+    }
+    
+}
+const myPizza=new pizza();
+myPizza.bake();
+document.write("<br>");
+document.write(myPizza.size);
+
+    </script>
+</body>
+</html>
